@@ -1,0 +1,5 @@
+name: daily-reward
+version: @version@
+main: io.github.badnotice.dailyreward.DailyRewardPlugin
+authors: [ BADnotice ]
+website: https://github.com/BADnotice/

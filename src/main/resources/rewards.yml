@@ -1,0 +1,44 @@
+# Olá, para lhe ajudar a configurar o Plugin corretamente, lista de efeitos e materiais abaixo!
+# https://helpch.at/docs/1.8/org/bukkit/Material.html
+
+rewards:
+  # Nome da recompensa. (este item é obritagoriamente ser unico).
+  teste:
+    # Permissão necessaria para coletar está recompensa.
+    permission: "dailyreward.teste"
+    # Tipo que a recompensa será.
+    #
+    # opções:
+    # ITEM - envia apenas os itens.
+    # COMMAND - envia apenas os comandos.
+    # ALL - envia os iens e comandos.
+    type: "ITEM"
+    # Lista que comandos que será executado ao coletar esta recompensa.
+    commands:
+      - 'say {player}'
+    # item que aparecerá no inventario do comando /reward.
+    display:
+      material: "STONE"
+      data: 0
+      display-name: "&eItem teste"
+      inventory-slot: 10
+      description:
+        - '&bTeste do item pow'
+    # lista de itens que será enviado ao coletar esta recompensa.
+    items:
+      1:
+        material: "APPLE"
+        data: 0
+        display-name: "&eItem topper"
+        description:
+          - ''
+        enchants:
+          - 'DURABILITY:5'
+      2:
+        material: "APPLE"
+        data: 0
+        display-name: "&eItem topper POW"
+        description:
+          - ''
+        enchants:
+          - 'DURABILITY:5'

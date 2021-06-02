@@ -1,0 +1,44 @@
+settings:
+  database:
+    type: "sqlite"
+    sqlite:
+      fileName: "database.db"
+    mysql:
+      address: "localhost:3306"
+      username: "root"
+      password: ""
+      database: "test"
+
+  inventory:
+    # titulo do inventario em resposta ao comando /reward
+    title: "Recompensa diaria"
+    # quantidade de linhas do inventario em resposta ao comando /reward
+    lines: 4
+
+  messages:
+
+    # mensagem de reposta coletado a recompensa.
+    #
+    # opções:
+    # {reward-name} - nome da recompensa solicitada.
+    reward-collected: "&aVocê recolheu a recompensa {reward-name}, parabens."
+
+    # mensagem de reposta a recompensa expirada.
+    #
+    # opções:
+    # {reward-name} - nome da recompensa solicitada.
+    reward-expired: "&cO tempo da recompensa {reward-name} chegou ao fim."
+
+    # mensagem de reposta caso o jogador ja possua coletado a recompensa.
+    #
+    # opções:
+    # {reward-name} - nome da recompensa solicitada.
+    # {time-left} - tempo restante.
+    already-collected: "&cVoce precisa aguardar §7'{time-left}' §cpara coletar está recompensa novamente!"
+
+    # mensagem de reposta caso o jogador não possua a permissão.
+    #
+    # opções:
+    # {reward-name} - nome da recompensa solicitada.
+    # {permission} - permissão da reocmpensa atual.
+    no-permission: "&cRequer a permissão `&f{permission}` &cpara coletar está recompensa."
