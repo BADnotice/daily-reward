@@ -43,7 +43,7 @@ public final class RewardInventory extends SimpleInventory {
                         return;
                     }
 
-                    if (ConfigValue.get(ConfigValue::closeInventory)) player.closeInventory();;
+                    player.closeInventory();;
 
                     RewardRequestEvent rewardEvent = new RewardRequestEvent(
                             reward,

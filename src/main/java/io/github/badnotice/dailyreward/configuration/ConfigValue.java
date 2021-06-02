@@ -28,8 +28,6 @@ public final class ConfigValue implements ConfigurationInjectable {
     @ConfigField("inventory.title") private String titleInventory;
     @ConfigField("inventory.lines") private int linesInventory;
 
-    @ConfigField("close-inventory") private boolean closeInventory;
-
     @ConfigField("messages.reward-collected") private String rewardCollectedMessage;
     @ConfigField("messages.reward-expired") private String rewardExpiredMessage;
     @ConfigField("messages.already-collected") private String alreadyCollectedMessage;
