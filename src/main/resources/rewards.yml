@@ -14,6 +14,10 @@ rewards:
     # ALL - envia os iens e comandos.
     type: "ITEM"
     # Lista que comandos que será executado ao coletar esta recompensa.
+
+    # Slot que o item ficará ao digitar /reward
+    inventory-slot: 10
+
     commands:
       - 'say {player}'
     # item que aparecerá no inventario do comando /reward.
@@ -21,7 +25,6 @@ rewards:
       material: "STONE"
       data: 0
       display-name: "&eItem teste"
-      inventory-slot: 10
       description:
         - '&bTeste do item pow'
     # lista de itens que será enviado ao coletar esta recompensa.
