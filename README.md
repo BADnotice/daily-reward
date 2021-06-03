@@ -2,12 +2,12 @@
 daily-reward é um plugin de recompensas diárias e de fácil configuração com possibilidade de criar quantas recompensas você desejar.
 
 ## :pushpin: Features
- - Configuração flexível.
- - Codigo limpo e leve.
- - Permitido criar até 56 recompensas.
- - Permitido enviar itens na coleta da recompensa.
- - Existem 3 tipos diferentes de recompensa, que são eles: COMMAND, ITEM e ALL.
- - Existem 2 tipos de armazenamento, MySQL e SQLite.
+  - Configuração flexível.
+  - Codigo limpo e leve.
+  - Permitido criar até 53 recompensas.
+  - Permitido enviar itens na coleta da recompensa.
+  - Existem 3 tipos diferentes de recompensa, que são eles: COMMAND, ITEM e ALL.
+  - Existem 2 tipos de armazenamento, MySQL e SQLite.
 
 ## :heavy_minus_sign: Comandos
 <table border="1" style="border-collapse: collapse">
