@@ -61,7 +61,7 @@ public final class DailyRewardPlugin extends JavaPlugin {
         int pluginId = 11554;
         Metrics metrics = new Metrics(this, pluginId);
 
-        metrics.addCustomChart(new Metrics.SimplePie("rewards_registed", () -> String.valueOf(this.rewardRegistry.getAll().size()) ));
+        metrics.addCustomChart(new Metrics.SimplePie("rewards_registed", () -> String.valueOf(this.rewardRegistry.getAll().size())));
     }
 
     @Override

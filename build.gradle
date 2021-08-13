@@ -14,7 +14,7 @@ tasks.build.dependsOn('pdm', 'shadowJar')
 repositories {
     mavenCentral()
 
-    maven { url = 'http://maven.elmakers.com/repository/'}
+    maven { url = 'http://maven.elmakers.com/repository/' }
     maven { url = "https://repo.codemc.org/repository/maven-public/" }
 
     maven { url = 'https://jitpack.io/' }

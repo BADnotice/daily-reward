@@ -25,7 +25,7 @@ public final class RewardParser {
                 this.loadItemsFromReward(section),
                 this.toItemStack(section.getConfigurationSection("display")),
                 section.getInt("inventory-slot"),
-                RewardType.find( section.getString("type"))
+                RewardType.find(section.getString("type"))
         );
     }
 

@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public final class UserStorage {
 
-    private final  DailyRewardPlugin plugin;
+    private final DailyRewardPlugin plugin;
     private final LoadingCache<String, User> users = CacheBuilder.newBuilder()
             .expireAfterAccess(15, TimeUnit.MINUTES)
             .build(new UserCacheLoader());

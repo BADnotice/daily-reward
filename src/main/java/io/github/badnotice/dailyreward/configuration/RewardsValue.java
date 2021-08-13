@@ -19,9 +19,11 @@ import java.util.function.Function;
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class RewardsValue implements ConfigurationInjectable {
 
-    @Getter private static final RewardsValue instance = new RewardsValue();
+    @Getter
+    private static final RewardsValue instance = new RewardsValue();
 
-    @ConfigField("rewards") private ConfigurationSection rewardsSection;
+    @ConfigField("rewards")
+    private ConfigurationSection rewardsSection;
 
     public static <T> T get(Function<RewardsValue, T> function) {
         return function.apply(instance);
